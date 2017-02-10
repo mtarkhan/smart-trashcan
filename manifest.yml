@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: smart-trashcan
+  host: smart-trashcan
+  disk_quota: 1024M
+  services:
+  - TrashCan DB
